@@ -1,18 +1,88 @@
-Package: com.piercingimpulse.verduraios
-Name: Verdura iOS [BETA]
+Package: com.hackyouriphone.myassistant
+Name: MyAssistant
+Version: 1.1
+Depends: firmware(>= 5.0), mobilesubstrate, preferenceloader, libactivator, applist, gsc.assistant | com.chpwn.spire
 Architecture: iphoneos-arm
-Description: Tired to watch YouTube on Safari or Google Chrome on older device? Download YouTube 10.11.11546, spoof the version on the plist file and then get VerduraiOS! For the full guide on how to use it, please visit my GitHub page :)
-Maintainer: PiercingImpulse
-Author: PiercingImpulse
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000)
-Version: 0.0.2
-Installed-Size: 328
-Filename: debs/com.piercingimpulse.verduraios_0.0.2_iphoneos-arm.deb
-Icon: https://davidmodphone.github.io/galastar/icons/com.piercingimpulse.verduraios.png
-Size: 36258
-MD5sum: 8cb7896285b3e515476450cb36093c31
-SHA1: e4b349a7546415461ecb34060068c4e9222b9805
-SHA256: 99d60b9815e16c9e5d02d27c5090c7e724899fb5b7232f1981564652080123c4
-SHA521: 7536f3e65e9b9f9639d5f3d11204ec5f026b13b631d32d40b64d586e6f9b6c9fa8745f8d197eb92db39fb68fcd1e152a477c0b43d29d73e1571f6b0e1ed0a844
+Author: Andrea Oliva & Akhil Tolani <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=myassistant
+Section: HYI - Tweaks
+Description: enhance Siri power with more actions
+Maintainer: iDevid <repo@hackyouriphone.org>
+Filename: debs/myassistant_1.1_iphoneos-arm.deb
+Depiction: https://davidmodphone.github.io/galastar/depictions/com.hackyouriphone.myassistant.html
+Size: 202276
+MD5sum: 4d64bf304308ad1c82c65018a877da4d
+SHA1: 1e758584c1c625e8f8b6c0e3a2e73842070017cd
+SHA256: 3a1db083154b5ccc2cd2a0dcc207b164dab99ea057138d82ef8029cf59758808
+SHA521: fea12b4992a0f816dbd627c18fd7db1625cef4ce3ee9c720af1dee22243fc5801021bb81f159baad922ef95b716ae11245b482543c30459a25a69fcb01832d59
+
+Maintainer: gdimait <http://siriport.ru/forum/user/1-gdimait/>
+Name: SiriPort Helper(iPhone 4S)
+Package: helper.siri.by.siriport.ru
+Section: Siri
+Version: 5.3.0-0helper
+Icon: file:///var/siriport.ru/icon64.png
+Pre-Depends: firmware (>= 5.0), cy+model.iphone (= 4.1)
+Conflicts: com.chpwn.spire, siri.by.siriport.ru, russian.siri.by.siriport.ru.511, gsc.ipad, SiriPort.Ru.iPad, original.siri.by.siriport.ru.511, hebrew.siri.by.siriport.ru.511
+Depends: preferenceloader, mobilesubstrate
+Architecture: iphoneos-arm
+Description: Auto-uploader keys to SiriPort Server! please all who have 4S install it!
+Depiction: http://aptinfo.siriport.ru/repo_files/pages/siriport_helper.html
+Author: Dmitriy Garitskiy <http://siriport.ru/>
+Sponsor: SiriPort.Ru <http://siriport.ru/forum/user/1-gdimait/>
+Homepage: http://siriport.ru
+Tag: purpose::extension
+Dev: gdimait
+Installed-Size: 20
+Filename: debs/SiriPort_Helper_iPhone_4_1_repo_siriport_ru.deb
+Depiction: https://davidmodphone.github.io/galastar/depictions/helper.siri.by.siriport.ru.html
+Size: 14730
+MD5sum: 9f8fe9f22c95a27df4549bd31d1cc9d6
+SHA1: 855ecc82b60c6e676fbfb204775df82bbc153ba7
+SHA256: 8f00d7255fab767b65743cb26bd4cad0a3cd5c8661aa8e16fda296559e2215e5
+SHA521: f4f6d785c45144bab5287899e76a7e520520aa3637bf05ee2f438bd2278b16cba7b73d318cdc975a73432a48bb0b063d523dd19db2086c3efef1f3a77f6303fd
+
+Package: siriport.ru.l.siriport.original.iOS612.iphone
+Name: SiriPort iOS6.1.2 Final
+Version: 1.4
+Pre-Depends: firmware (= 6.1.2), cy+model.iphone (= 2.1) | cy+model.iphone (= 3.1) | cy+model.iphone (= 3.2) | cy+model.iphone (= 3.3) | cy+model.ipod (= 4.1)
+Architecture: iphoneos-arm
+Description: Full & Easy Apple Siri for iPhone 4 & iPod Touch 4 & iPhone 3GS! WARNING: This package is for iOS 6.1.2 only!
+Depiction: http://repo.siriport.ru/projects/SiriPort_Original_iPhone_iPod_ios6_1_2/
+Homepage: http://SiriPort.Ru
+Maintainer: Dmitriy Garitskiy <http://SiriPort.Ru>
+Author: Dmitriy Garitskiy <http://SiriPort.Ru>
+Section: Siri
+Depends: com.innoying.sbutils, mobilesubstrate, preferenceloader, coreutils, com.ericasadun.utilities
+Conflicts: gsc.ipad, jp.r-plus.dictator, location.fix.wordjelly, com.myrepospace.BassamKassem.AcidSiriiOS6Test, com.PS.iPod4FastiOS6, com.myrepospace.BassamKassem.AcidSiriiOS601, com.myrepospace.BassamKassem.AcidSiriiOS61, com.myrepospace.BassamKassem.AcidSiriiOS612, com.myrepospace.BassamKassem.AcidSiriiOS613, com.siriport.ru.gdimait.siriport.original.iOS7beta.iphone, com.siriport.ru.gdimait.siriport.original.iOS612.iphone
+Tag: purpose::extension
+Filename: debs/SiriPort_Original_iOS6_1_2_final.deb
+Depiction: https://davidmodphone.github.io/galastar/depictions/siriport.ru.l.siriport.original.iOS612.iphone.html
+Size: 22284624
+MD5sum: 8638bcb8c80cb566b75cd78149e2024b
+SHA1: bb616a5a33250a36d821b9fa16779e7f6392136a
+SHA256: 6038431dfcdd7ce1089a3aff6de8f2c594606b4cc25eadca70a00af32089bbcf
+SHA521: a9340f2a4ca0c57a7ee2252ac542ff0c6dc9447419296c7ae3f5bf09025946a28fbcad44d0d0e5e00de416ee80c8f32216465334036b0d219679e9c94225b964
+
+Package: siriport.ru.siri.ios7.ip.dev
+Name: SiriPort[Original-iOS7.1DEV]
+Version: 1.1-dev
+Architecture: iphoneos-arm
+Description: Siri for iOS 7+
+Depiction: http://repo.siriport.ru/projects/SiriPort_Original_iPhone_ios7/
+Homepage: http://siriport.ru
+Maintainer: Dmitriy Garitskiy <http://SiriPort.Ru>
+Author: Dmitriy Garitskiy <http://SiriPort.Ru>
+Section: Siri
+Conflicts: gsc.ipad, jp.r-plus.dictator
+Depends: mobilesubstrate, preferenceloader, p7zip, grep, coreutils, com.ericasadun.utilities
+Pre-Depends: firmware (>= 7.0), firmware (<< 8)
+Tag: purpose::extension
+Filename: debs/SiriPort_Ru_iOS7_Siri_Original_dev.deb
+Depiction: https://davidmodphone.github.io/galastar/depictions/siriport.ru.siri.ios7.ip.dev.html
+Size: 96718084
+MD5sum: a7b3e44d294cec0e2a9cd7ca68acc820
+SHA1: e0ee19b60ec7915319322cdd20a7d84e95315565
+SHA256: f9e2463dd05a87c3e6c2872741aea34e01485e353f3f60251299aaec25fb0a77
+SHA521: d78f5095bf6729526819f408bc19c61afab1b136e2ceefcccb0ea4cc16cbcc7885575a992f9686fbc5515a829bd779a6fb7f69fa7673d9e17759c2f199646cd5
 
