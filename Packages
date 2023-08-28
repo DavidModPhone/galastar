@@ -1,0 +1,18 @@
+Package: com.piercingimpulse.verduraios
+Name: Verdura iOS [BETA]
+Architecture: iphoneos-arm
+Description: Tired to watch YouTube on Safari or Google Chrome on older device? Download YouTube 10.11.11546, spoof the version on the plist file and then get VerduraiOS! For the full guide on how to use it, please visit my GitHub page :)
+Maintainer: PiercingImpulse
+Author: PiercingImpulse
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Version: 0.0.2
+Installed-Size: 328
+Filename: debs/com.piercingimpulse.verduraios_0.0.2_iphoneos-arm.deb
+Icon: https://davidmodphone.github.io/galastar/icons/com.piercingimpulse.verduraios.png
+Size: 36258
+MD5sum: 8cb7896285b3e515476450cb36093c31
+SHA1: e4b349a7546415461ecb34060068c4e9222b9805
+SHA256: 99d60b9815e16c9e5d02d27c5090c7e724899fb5b7232f1981564652080123c4
+SHA521: 7536f3e65e9b9f9639d5f3d11204ec5f026b13b631d32d40b64d586e6f9b6c9fa8745f8d197eb92db39fb68fcd1e152a477c0b43d29d73e1571f6b0e1ed0a844
+
